@@ -1,0 +1,39 @@
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+.navbar {
+	height: 44px;
+	box-shadow: 0 2px 2px -2px gray;
+}
+.title {
+	font-size: 35px;
+}
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+.container:after {
+	clear: both;
+}
+.paper {
+	line-height: 23px;
+}
+.annotated {
+	background: rgb(196,249,255);
+	text-decoration: none;
+	cursor: pointer
+}
+.annotated:hover {
+	background: rgb(148,244,255);
+}
+.annotated:active {
+	color: black;
+}
+.selected-annotation {
+	margin-top: 10px;
+	height: 80px;
+	overflow-y: scroll;
+	font-size: 19px;
+	background: rgb(196,249,255)
+}
